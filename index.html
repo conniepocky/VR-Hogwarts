@@ -1,0 +1,54 @@
+<html>
+
+<html>
+
+<head>
+    <script src="https://aframe.io/releases/0.8.0/aframe.min.js"></script>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <a class="typeform-share button" href="https://connie193.typeform.com/to/bWqbbv" data-mode="popup" data-auto-open=true
+        target="_blank"> </a>
+    <script> (function () { var qs, js, q, s, d = document, gi = d.getElementById, ce = d.createElement, gt = d.getElementsByTagName, id = "typef_orm_share", b = "https://embed.typeform.com/"; if (!gi.call(d, id)) { js = ce.call(d, "script"); js.id = id; js.src = b + "embed.js"; q = gt.call(d, "script")[0]; q.parentNode.insertBefore(js, q) } })() </script>
+
+    <a-scene>
+
+        <a-assets>
+            <img id="waffle" src="https://res.cloudinary.com/dexhx07lb/image/upload/v1539512833/waffle.jpg">
+            <img id="hogwarts" src="https://res.cloudinary.com/dexhx07lb/image/upload/v1539514645/maxresdefault.jpg">
+            <img id="snape" src="https://res.cloudinary.com/dexhx07lb/image/upload/v1539519004/SeverusSnape_WB_F5_SeverusSnapeFullbody_Promo_080615_Port.jpg">
+            <img id="gif" src="https://res.cloudinary.com/dexhx07lb/image/upload/v1539519925/giphy.gif">
+        </a-assets>
+
+        <a-box src="#waffle" position="0 2 -5" rotation="0 45 45" scale="2 2 2">
+            <a-animation attribute="rotation" begin="click" dur="2000" to="360 405 45"></a-animation>
+        </a-box>
+
+        <a-box src="#waffle" position="0 2 -9" rotation="0 45 45" scale="2 2 2">
+            <a-animation attribute="rotation" begin="click" dur="2000" to="360 405 45"></a-animation>
+        </a-box>
+
+
+        <a-box src="#snape" position="0 0 -1" rotation="0 0 0" scale="1 2 1"></a-box>
+
+        <a-image src="#gif" position="0 0 0"></a-image>
+
+        <a-sky color="#A0EAFA" src="#hogwarts"></a-sky>
+
+
+        <a-camera>
+            <a-cursor></a-cursor>
+        </a-camera>
+
+    </a-scene>
+</body>
+
+</html>
